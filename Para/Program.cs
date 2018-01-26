@@ -12,7 +12,8 @@ namespace Para
         {
             for(int i=0; i<myStrArray.Length; i++)
             {
-                Console.WriteLine(myStrArray[i] + "{0}", i < myStrArray.Length - 1 ? "" : "");
+                //Console.WriteLine(myStrArray[i] + "{0}", i < myStrArray.Length - 1 ? "" : "");
+                Console.WriteLine("{0}", myStrArray[i]);
                 Console.WriteLine();
             }
         }
