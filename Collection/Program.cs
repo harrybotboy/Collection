@@ -30,7 +30,7 @@ namespace Collection
             {
                 Console.WriteLine(empArray[i].ToString());
             }
-
+            
             Console.ReadKey();
         }
     }

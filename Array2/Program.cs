@@ -91,3 +91,69 @@ namespace Array2
         }
     }
 }
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+
+//namespace Hello_World
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+
+//            int m, n;
+//            bool isSucess;
+
+//            input1:
+//            Console.Write("Moi ban nhap so dong ");
+//            isSucess = int.TryParse(Console.ReadLine(), out m);
+//            if (isSucess == false)
+//            {
+//                Console.WriteLine("Ban da nhap gia tri khong hop le vui long nhap lai!");
+//                goto input1;
+//            }
+//            input2:
+//            Console.Write("Moi ban nhap so cot ");
+//            isSucess = int.TryParse(Console.ReadLine(), out n);
+//            if (isSucess == false)
+//            {
+//                Console.WriteLine("Ban da nhap gia tri khong hop le vui long nhap lai!");
+//                goto input2;
+//            }
+//            int[,] IntArray = new int[m, n];
+//            for (int i = 0; i < IntArray.GetLength(0); i++)
+//            {
+//                for (int j = 0; j < IntArray.GetLength(1); j++)
+//                {
+//                    enter_value:
+//                    Console.Write("IntArray[{0}, {1}] = ", i, j);
+//                    isSucess = int.TryParse(Console.ReadLine(), out IntArray[i, j]);
+//                    if (isSucess == false)
+//                    {
+//                        Console.WriteLine("Vui long nhap lai gia tri vua roi!");
+//                        goto enter_value;
+//                    }
+//                }
+//            }
+
+//            Console.WriteLine("Mang ban vua nhap la");
+
+//            long sum = 0;
+
+//            for (int i = 0; i < IntArray.GetLength(0); i++)
+//            {
+//                for (int j = 0; j < IntArray.GetLength(1); j++)
+//                {
+//                    Console.Write("{0, 5}", IntArray[i, j]);
+//                    sum += IntArray[i, j];
+//                }
+//                Console.WriteLine();
+//            }
+
+//            Console.WriteLine("Tong cac gia tri cua mang la {0}", sum);
+//        }
+//    }
+//}
